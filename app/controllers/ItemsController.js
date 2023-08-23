@@ -33,5 +33,6 @@ export class ItemsController {
     moneyButton() {
         let money = AppState.money
         money += .25
+        this.drawMoney()
     }
 }
